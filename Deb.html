@@ -5,41 +5,77 @@
         <meta name = "viewport" content = "width = device-width, initial scale = 1"> 
         <title>Deb's College Fund</title>
         <script type = "text/javascript" src = # ></script>
-        <link rel = "stylesheet" href = # >
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\Deb.css" >
     </head>
-    <div id = "wrapper">
-        <header>
-            <h1>Deb's College Fund</h1>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </header>
-        <body>
-            <div id = "cast_holder">
-                <img src = # alt = "">
-            <div>
-            <h2>Merchandise</h2>
-            <div id = "item_holder">
-                <figure>
-                    <img src = # alt = "">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src = # alt = "">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src = # alt = "">
-                    <figcaption></figcaption>
-                </figure>
+
+    <body class = "container my-1 wrapper">
+        <div class = "row">
+            <header class = "row ">
+                <h1 class = "col-6">Deb's College Fund</h1>
+                <img class = "col-2" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\Crew.png" alt = "Standing shoulder to shoulder is Pedro, Napoleon, and Deb.">
+            </header>  
+
+            <div class=" row gy-5 justify-content-center">
+                <div class = "col-10 container">
+                    <h2>Merchandise</h2>
+                    <ul>
+                        <li>Key Chains</li>
+                        <li>Catering</li>
+                        <li>Pedro's Bike</li>
+                    </ul>
+                    <form>
+                        <figure>
+                            <label for = "yellowKeychain">
+                                <img src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\key_chain1.png" alt = "Yellow keychain with a red and blue braided pattern.">
+                                <figcaption></figcaption>
+                            </label>
+                            <input type = "checkbox" id = "yellowKeychain">
+                        </figure>
+
+                        <figure>
+                            <label for = "blueKeychain">
+                                <img src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\Key_chain2.png" alt = "Blue keychain with a red and yellow braided pattern.">
+                                <figcaption></figcaption>
+                            </label>
+                            <input type = "checkbox" id = "blueKeychain">
+                        </figure>
+
+                        <figure>
+                            <label for = "redKeychain">
+                                <img src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\key_chain3.png" alt = "Red keychain with a yellow and blue braided pattern.">
+                                <figcaption></figcaption>
+                            </label>
+                            <input type = "checkbox" id = "redKeychain">
+                        </figure>
+
+                        <figure>
+                            <label for = "tots">
+                                <img src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\tots.png" alt = "A stack of crispy orange tater tots.">
+                                <figcaption></figcaption>
+                            </label>
+                            <input type = "checkbox" id = "tots">
+                        </figure>
+
+                        <figure>
+                            <label for = "steak">
+                                <img src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\steak.png" alt = "Juicy steak.">
+                                <figcaption></figcaption>
+                            </label>
+                            <input type = "checkbox" id = "steak">
+                        </figure>
+
+                        <figure>
+                            <label for = "bike">
+                                <img src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\bike.png" alt = "Pedro's bike, featuring a black frame with shocks and pegs.">
+                                <figcaption></figcaption>
+                            </label>
+                            <input type = "checkbox" id = "bike">
+                        </figure>
+                        <input type = "submit" value = "Add to Cart">
+                    </form>
+                </div>
             </div>
-        </body>
-    </div>
-
-
-
-
-
+        </div>
+    </body>
 </html>
