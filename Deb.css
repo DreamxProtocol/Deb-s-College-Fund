@@ -5,7 +5,7 @@
 }
 body{
     border: solid #8a2be2 1px;
-    height: 98vh;
+    height: 100vh;
 }
 img{
     width: 50px;
@@ -21,13 +21,12 @@ input{
 header{
 
     border: solid green 1px;
-
 }
 
 .a{
 
-    border: solid yellow 1px;
-    height: 100%;
+    border: solid blue 1px;
+    /* height: 70%; */
 
 }
 
