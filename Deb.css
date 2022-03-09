@@ -3,7 +3,7 @@
     margin: 0; 
     box-sizing: border-box;
 }
-.wrapper{
+body{
     border: solid #8a2be2 1px;
     height: 98vh;
 }
@@ -16,6 +16,31 @@ figure, li{
 }
 input{
     display: block;
+}
+
+header{
+
+    border: solid green 1px;
+
+}
+
+.a{
+
+    border: solid yellow 1px;
+    height: 100%;
+
+}
+
+.b{
+
+    border: solid pink 1px;
+
+}
+
+.c{
+
+    border: solid blACK 1PX;
+
 }
 
 
