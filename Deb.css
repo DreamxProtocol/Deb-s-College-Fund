@@ -11,12 +11,13 @@ img{
     height: 255px;
 }
 
-figure, li{
+figure{
     display: inline-block;
 }
 
 figure{
     border: solid goldenrod 1px;
+    
 }
 
 
@@ -48,6 +49,7 @@ header{
 form{
     border: solid red 1px;
 }
+
 
 
 
