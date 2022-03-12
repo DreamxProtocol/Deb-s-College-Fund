@@ -3,10 +3,6 @@
     margin: 0; 
     box-sizing: border-box;
 }
-body{
-    border: solid #8a2be2 2px;
-    /* height: 100vh; */
-}
 img{
     height: 255px;
 }
@@ -15,9 +11,10 @@ figure{
     display: inline-block;
 }
 
-figure{
-    border: solid goldenrod 1px;
-    
+li{
+
+    cursor: pointer;
+
 }
 
 
@@ -25,32 +22,9 @@ input{
     display: block;
     margin: 0 auto;
 }
-
-header{
-
-    border: solid green 1px;
-}
-
+ 
 .a{
-
-    border: solid blue 1px;
-    /* height: 70%; */
-
+    margin-top: -4rem;
 }
-
-.b{
-    border: solid pink 1px;
-}
-
-.c{
-    border: solid blACK 1PX;
-}
-
-form{
-    border: solid red 1px;
-}
-
-
-
 
 
