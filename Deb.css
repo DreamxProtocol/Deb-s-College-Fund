@@ -3,9 +3,9 @@
     margin: 0; 
     box-sizing: border-box;
 }
-img{
+/* img{
     height: 255px;
-}
+} */
 
 figure{
     display: inline-block;
