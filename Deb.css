@@ -3,9 +3,9 @@
     margin: 0; 
     box-sizing: border-box;
 }
-/* img{
-    height: 255px;
-} */
+img{
+    width: 35%;
+}
 
 figure{
     display: inline-block;
@@ -28,3 +28,8 @@ input{
 }
 
 
+.s{
+
+    margin-right: 23%;
+
+}
