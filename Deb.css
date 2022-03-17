@@ -3,9 +3,7 @@
     margin: 0; 
     box-sizing: border-box;
 }
-img{
-    width: 35%;
-}
+
 
 figure{
     display: inline-block;
@@ -18,18 +16,60 @@ li{
 }
 
 
+
+
+
+
 input{
     display: block;
     margin: 0 auto;
 }
  
-.a{
-    margin-top: -4rem;
+@media screen and (max-width: 575px){
+
+
+
+    .neg-mar-cast{
+        margin-top: -4rem;
+    }
+    
+    
+    .check-mar-right{
+    
+        margin-right: 23%;
+    
+    }
+
+    img{
+        width: 35%;
+    }
+
+
 }
 
+@media screen and (min-width: 576px){
 
-.s{
+    img{
+        width: 65%;
+    }
 
-    margin-right: 23%;
 
 }
+
+@media screen and (min-width: 768px){
+
+    .neg-mar-cast{
+        margin-top: -4rem;
+    }
+
+
+}
+
+@media screen and (min-width: 768px){
+
+    img{
+        width: 60%;
+    }
+
+}
+
