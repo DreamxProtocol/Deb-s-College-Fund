@@ -9,88 +9,84 @@
         <link rel = "stylesheet" href = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\Deb.css" >
     </head>
 
-    <body class = "container-fluid bg-primary bg-opacity-50 " >
-        <div class = "row bg-warning bg-opacity-50 container-fluid container-sm  justify-content-center my-xl-1 pb-xl-2 my-lg-2 pb-lg-3 my-md-2 pb-md-3 my-1 pb-2 mx-auto">
-            <header class = "row gy-sm-2 gy-1 mb-4 mb-sm-1 mb-md-0">
+    <body class = "container-fluid bg-primary bg-opacity-50">
+
+        <div class = "container-max-width-adjust row container-fluid container-sm justify-content-center bg-warning bg-opacity-50 mx-auto my-1 pb-2 my-md-2 ">
+           
+            <header class = "row gy-1 gy-sm-2 mb-4 mb-sm-4 mb-md-0">
                 <h1 class = "col-10 fw-bold ">Deb's College Fund</h1>
             </header>  
 
-            
-
             <div class = "row neg-mar-cast">
-                <img class = " col-7 offset-5 mt-5 mt-sm-1 col-sm-8 offset-sm-4 mt-md-0 col-md-6 offset-md-6 col-lg-4 offset-lg-7 img-fluid " src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\Crew.png" alt = "Standing shoulder to shoulder is Pedro, Napoleon, and Deb.">
+                <img class = "mt-5 col-7 offset-5 mt-sm-2 col-sm-6 offset-sm-6 mt-md-2 col-md-5 offset-md-7 mt-lg-0 col-lg-4 offset-lg-7 img-fluid " src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\Crew.png" alt = "Standing shoulder to shoulder is Pedro, Napoleon, and Deb.">
             </div>
 
-            <div class=" row ">
-                <div  class = "col-lg-10 col-12 bg-danger bg-opacity-75 text-center mx-auto shadow-lg">
-                    <h2 class = "bg-success bg-opacity-75 border border-success rounded col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 col-7 mx-auto mt-1  fw-bold" >Merchandise</h2>
-                    <ul class="d-none d-md-block list-unstyled ">
+            <div class="row">
+                <div  class = "col-12 col-lg-10 mx-auto text-center bg-danger bg-opacity-75 shadow-lg">
+                    <h2 class = "bg-success bg-opacity-75 border border-success rounded fw-bold mx-auto mt-1 col-7 col-sm-6 col-md-5 col-lg-4">Merchandise</h2>
+                    
+                    <ul class="list-unstyled bottom-margin-list">
                         <li class = " d-inline-block mx-2 border-bottom fs-6 fw-bold">Key Chains</li>
                         <li class = " d-inline-block mx-2 border-bottom fs-6 fw-bold">Catering</li>
                         <li class = " d-inline-block mx-2 border-bottom fs-6 fw-bold">Pedro's Bike</li>
                     </ul>
-                    <form  id = "merch" class = "d-flex flex-column flex-sm-row col-sm-11 mx-auto flex-sm-nowrap overflow-hidden bg-success bg-opacity-75 shadow" >
-                        
-                        
-                        
-                        
+
+                    <div id = "back" class = "position-relative d-none d-sm-block circle" >&laquo;</div>
+                    <div id = "next" class = "position-relative d-none d-sm-block circle" >&raquo;</div>
+                    <form  id = "merch" class = "d-flex flex-column flex-sm-row mx-auto mt-2 col-sm-11 flex-sm-nowrap overflow-hidden bg-success bg-opacity-75 shadow">
+
                         <figure  class = "m-2 p-2 col-sm-5 col-md-4 col-lg-3 bg-info bg-opacity-50 border rounded border-warning">
                             <label for = "yellowKeychain" class = "d-flex justify-content-around d-sm-inline-block">
                                 <img class="" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\key_chain1.png" alt = "Yellow keychain with a red and blue braided pattern.">
-                                <figcaption class = "col-4 col-sm-12 align-self-center">Sweet Key Chain (Yellow)<p>$2.00</p></figcaption>
+                                <figcaption class = "col-4 col-sm-12 align-self-center fw-bold">Sweet Key Chain (Yellow)<p class = "fst-italic" >$2.00</p></figcaption>
                             </label>
-                            <input class="form-check-input mb-2 float-end check-mar-right float-sm-none" type = "checkbox" id = "yellowKeychain">
+                            <input class="form-check-input mb-2 check-mar-right position-relative" type = "checkbox" id = "yellowKeychain">
                         </figure>
-
 
                         <figure class = "m-2 p-2 col-sm-5 col-md-4 col-lg-3 bg-info bg-opacity-50 border rounded border-warning">
                             <label for = "blueKeychain" class = "d-flex justify-content-around d-sm-inline-block">
                                 <img class = "" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\Key_chain2.png" alt = "Blue keychain with a red and yellow braided pattern.">
-                                <figcaption class = "col-4 col-sm-12 align-self-center">Sweet Key Chain (Blue)<p>$2.00</p></figcaption>
+                                <figcaption class = "col-4 col-sm-12 align-self-center fw-bold">Sweet Key Chain (Blue)<p class = "fst-italic">$2.00</p></figcaption>
                             </label>
-                            <input class="form-check-input mb-2 float-end check-mar-right float-sm-none" type = "checkbox" id = "blueKeychain">
+                            <input class="form-check-input mb-2 check-mar-right position-relative" type = "checkbox" id = "blueKeychain">
                         </figure>
-
-
-
-
-
-
 
                         <figure class = "m-2 p-2 col-sm-5 col-md-4 col-lg-3 bg-info bg-opacity-50 border rounded border-warning">
                             <label for = "redKeychain" class = "d-flex justify-content-around d-sm-inline-block">
                                 <img class ="" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\key_chain3.png" alt = "Red keychain with a yellow and blue braided pattern.">
-                                <figcaption class = "col-4 col-sm-12 align-self-center">Sweet Key Chain (Red)<p>$2.00</p></figcaption>
+                                <figcaption class = "col-4 col-sm-12 align-self-center fw-bold">Sweet Key Chain (Red)<p class = "fst-italic">$2.00</p></figcaption>
                             </label>
-                            <input class="form-check-input mb-2 float-end check-mar-right float-sm-none" type = "checkbox" id = "redKeychain">
-                        </figure>
-
-                        <figure class = "m-2 p-2 col-sm-5 col-md-4 col-lg-3 bg-info bg-opacity-50 border rounded border-warning">
-                            <label for = "tots" class = "d-flex justify-content-around d-sm-inline-block">
-                                <img class="" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\tots.png" alt = "A stack of crispy orange tater tots.">
-                                <figcaption class = "col-4 col-sm-12 align-self-center">Freak'n Tots<p>$20.00 for a dozen plastic sacks</p></figcaption>
-                            </label>
-                            <input class="form-check-input mb-2 float-end check-mar-right float-sm-none" type = "checkbox" id = "tots">
+                            <input class="form-check-input mb-2 check-mar-right position-relative" type = "checkbox" id = "redKeychain">
                         </figure>
 
                         <figure  class = "m-2 p-2 col-sm-5 col-md-4 col-lg-3 bg-info bg-opacity-50 border rounded border-warning">
                             <label for = "steak" class = "d-flex justify-content-around d-sm-inline-block">
                                 <img class = "" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\steak.png" alt = "Juicy steak.">
-                                <figcaption class = "col-4 col-sm-12 align-self-center">Bloody Steak<p>$12.00 a steak</p></figcaption>
+                                <figcaption class = "col-4 col-sm-12 align-self-center fw-bold">Bloody Steak<p class = "fst-italic">$12.00 a steak</p></figcaption>
                             </label>
-                            <input class="form-check-input mb-2 float-end check-mar-right float-sm-none" type = "checkbox" id = "steak">
+                            <input class="form-check-input mb-2 check-mar-right position-relative" type = "checkbox" id = "steak">
+                        </figure>
+
+                        <figure class = "m-2 p-2 col-sm-5 col-md-4 col-lg-3 bg-info bg-opacity-50 border rounded border-warning">
+                            <label for = "tots" class = "d-flex justify-content-around d-sm-inline-block">
+                                <img class="" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\tots.png" alt = "A stack of crispy orange tater tots.">
+                                <figcaption class = "col-4 col-sm-12 align-self-center fw-bold">Freak'n Tots<p class = "fst-italic">$20.00 for a dozen plastic sacks</p></figcaption>
+                            </label>
+                            <input class="form-check-input mb-2 check-mar-right position-relative" type = "checkbox" id = "tots">
                         </figure>
 
                         <figure class = "m-2 p-2 col-sm-5 col-md-4 col-lg-3 bg-info bg-opacity-50 border rounded border-warning">
                             <label for = "bike" class = "d-flex justify-content-around d-sm-inline-block">
                                 <img class="" src = "C:\Users\Marsea\Desktop\Front End Practice\Deb's College Fund\imgs\bike.png" alt = "Pedro's bike, featuring a black frame with shocks and pegs.">
-                                <figcaption class = "col-4 col-sm-12 align-self-center">Lucky Sledgehammer<p>AT LEAST $299.99</p></figcaption>
+                                <figcaption class = "col-4 col-sm-12 align-self-center fw-bold">Lucky Sledgehammer<p class = "fst-italic">AT LEAST $299.99</p></figcaption>
                             </label>
-                            <input class="form-check-input mb-2 float-end check-mar-right float-sm-none" type = "checkbox" id = "bike">
+                            <input class="form-check-input mb-2 check-mar-right" type = "checkbox" id = "bike">
                         </figure>  
+
                     </form>
+
                     <input form = "merch" class="btn btn-primary my-1 shadow " type = "submit" value = "Add to Cart"> 
-                      
+
                 </div>
             </div>
         </div>

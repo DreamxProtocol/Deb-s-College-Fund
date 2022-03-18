@@ -4,21 +4,47 @@
     box-sizing: border-box;
 }
 
+/* prices */
+p{
+    color: #d1ceff;
+}
 
+/* contains everything for the item(merch) */
 figure{
     display: inline-block;
 }
 
 li{
-
     cursor: pointer;
-
 }
 
+/* circles for the forward/back buttons */
+.circle{
+    width: 4.5%;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    opacity: .85;
+    cursor: pointer;
+}
 
+.circle:hover{
+    opacity: 1;
+    font-weight: bold;
+}
 
+/* back button */
+#back{
+    right: 1%;
+    top: 40%;
+    border: solid white 1px;
+}
 
-
+/* forward button */
+#next{
+    left: 97%;
+    top: 34%;
+    border: solid white 1px;
+}
 
 input{
     display: block;
@@ -27,49 +53,117 @@ input{
  
 @media screen and (max-width: 575px){
 
-
-
+    /* cast picture container*/
     .neg-mar-cast{
         margin-top: -4rem;
     }
     
-    
+    /* checkbox for mobile view  */
     .check-mar-right{
-    
-        margin-right: 23%;
-    
+        margin-right: 22%;
     }
 
     img{
         width: 35%;
     }
-
-
 }
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
 
     img{
         width: 65%;
     }
 
-
-}
-
-@media screen and (min-width: 768px){
-
     .neg-mar-cast{
         margin-top: -4rem;
     }
 
+    /* margin for list because divs (circles) created unwanted margin space between list and form */
+    .bottom-margin-list{
+        margin-bottom: -2rem;
+    }
+
+    /* input, checkbox */
+    #yellowKeychain{
+        top: 4%;
+    }
+
+    /* input, checkbox */
+    #steak{
+        top: 21%;
+    }
+
+    /* input, checkbox */
+    #tots{
+        top: 25%;
+    }
+
+    @media screen and (max-width: 767px){
+
+        /* max width for entire main container */
+        .container-max-width-adjust{
+            max-width: 600px;
+        }
+
+        /* input, checkbox */
+        #redKeychain, #blueKeychain{
+            top: 4%;
+        }
+
+     }
+
+    @media screen and (min-width: 609px) and (max-width: 767px){
+
+        #redKeychain{
+            top: 13%;
+        }
+
+    }
+
+    @media screen and (min-width: 621px) and (max-width: 767px){
+
+        #blueKeychain{
+            top: 13%;
+        }
+    
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .container-max-width-adjust{
+        max-width: 740px;
+    }
+
+    #redKeychain, #blueKeychain{
+        top: 12%;
+    } 
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px) {
 
-    img{
-        width: 60%;
+    .container-max-width-adjust{
+        max-width: 950px;
+    }
+
+    #yellowKeychain{
+        top: 12%;
+    }
+    
+    #steak{
+        top: 28%;
+    }
+    
+    #tots{
+        top: 29.5%;
+    }
+}
+
+@media screen and (min-width: 1199px){
+
+    .container-max-width-adjust{
+        max-width: 1000px;
     }
 
 }
-
