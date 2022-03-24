@@ -4,18 +4,6 @@
     box-sizing: border-box;
 }
 
-a{
-    color: black;
-}
-
-a:hover{
-    color: #f9dd7f;
-}
-
-form{
-    scroll-behavior: smooth;
-}
-
 /* prices */
 p{
     color: #d1ceff;
@@ -24,7 +12,6 @@ p{
 /* contains everything for the item(merch) */
 figure{
     display: inline-block;
-    /* transition-duration: 500ms; */
 }
 
 li{
@@ -33,9 +20,7 @@ li{
 }
 
 li:hover{
-
     border-bottom: solid #519fb1 2px;
-
 }
 
 input{
@@ -58,10 +43,14 @@ input{
     img{
         width: 35%;
     }
- 
 }
 
 @media screen and (min-width: 576px) {
+
+    /* max width for entire main container */
+    .container-max-width-adjust{
+        max-width: 555px;
+    }
 
     img{
         width: 65%;
@@ -73,85 +62,82 @@ input{
 
     /* input, checkbox */
     #yellowKeychain{
-        top: 4%;
+        top: 13%;
     }
 
     /* input, checkbox */
     #steak{
-        top: 21%;
+        top: 27.5%;
     }
 
     /* input, checkbox */
     #tots{
-        top: 25%;
+        top: 29.5%;
     }
 
-    @media screen and (max-width: 767px){
-
-        /* max width for entire main container */
-        .container-max-width-adjust{
-            max-width: 550px;
-        }
-
-        /* input, checkbox */
-        #redKeychain, #blueKeychain{
-            top: 4%;
-        }
-
-     }
-
-    @media screen and (min-width: 609px) and (max-width: 767px){
-
-        #redKeychain{
-            top: 13%;
-        }
-
-    }
-
-    @media screen and (min-width: 621px) and (max-width: 767px){
-
-        #blueKeychain{
-            top: 13%;
-        }
-    
+    /* input, checkbox */
+    #redKeychain, #blueKeychain{
+        top: 11.5%;
     }
 }
 
 @media screen and (min-width: 768px) {
 
     .container-max-width-adjust{
-        max-width: 700px;
+        max-width: 730px;
     }
 
-    #redKeychain, #blueKeychain{
-        top: 12%;
+    #yellowKeychain{
+        top: 5.5%;
     } 
 
+    #redKeychain, #blueKeychain{
+        top: 13.5%;
+    }
+
+    #tots{
+        top: 24.5%;
+    }
+
+    #steak{
+        top: 22.5%;
+    }
 }
 
 @media screen and (min-width: 992px) {
 
     .container-max-width-adjust{
-        max-width: 820px;
+        max-width: 965px;
     }
 
-    #yellowKeychain{
+    #redKeychain, #blueKeychain, #yellowKeychain{
         top: 12%;
+    } 
+
+    #redKeychain, #blueKeychain{
+        top: 11%;
     }
-    
+
     #steak{
-        top: 28%;
+        top: 27.5%;
     }
     
     #tots{
-        top: 29.5%;
+        top: 29%;
     }
 }
 
 @media screen and (min-width: 1199px){
 
-    .container-max-width-adjust{
-        max-width: 960px;
-    }
+    #redKeychain, #blueKeychain, #yellowKeychain{
+        top: 12%;
+    } 
 
+    #steak{
+        top: 28%;
+    }
+    
+    #tots{
+        top: 29%;
+    }
 }
