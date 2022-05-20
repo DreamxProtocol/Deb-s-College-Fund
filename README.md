@@ -10,12 +10,12 @@
  The purpose of this project was to focus heavily on the practice of *Bootstrap* by demonstrating the responsive design features it has to offer. The goal was to make the user experience smooth as possible for both the desktop and mobile views with Bootstrap alone.
  
 ## How 
- The languages used here were *HTML*, *CSS*(***Bootstrap***), and *JavaScript*. The layout of the page relies on Bootstrap's grid system which is responsible for the responsive user friendly experience. All images used here were made and edited with GIMP and Inkscape.
+ The languages used here were *HTML*, *CSS*(***Bootstrap***), and *JavaScript*. The layout of the page relies on Bootstrap's grid system which is responsible for the responsive user friendly experience. All images used here were made and edited with ***GIMP*** and ***Inkscape***.
  
 ## Page Description
  - Desktop View
   
-   The container that holds all the HTML elements inside of it is centered on the page. At the top left is the name of the website and to its right is the logo which features members of the store. Underneath those two elements is another container which holds the items for sale, a scroll bar, and a type of nav bar. The items are paired with their own descriptions, pricing, and checkbox to be selected. Marking a checkbox and clicking "Add to Cart" is not a real working feature and is only a HTML form. You can scroll through the items either by using the scroll bar or clicking on one of the item categories which automatically glides you over to the corresponding item(s).
+   The container that holds all the HTML elements inside of it is centered on the page. At the top left is the name of the website and to its right is the logo which features members of the store. Underneath those two elements is another container which holds the items for sale, a scroll bar, and a type of nav bar. The items are paired with their own descriptions, pricing, and checkbox to be selected. Marking a checkbox and clicking "***Add to Cart***" is not a real working feature and is only a HTML form. You can scroll through the items either by using the scroll bar or clicking on one of the item categories which automatically glides you over to the corresponding item(s).
    
  - Mobile View
  
@@ -24,8 +24,12 @@
 ## Completed Pictures
  - Desktop View
 
-![completed desktop view](./)
+![completed desktop view](./Rough%20draft%20and%20completed%20pics/desktop_view.png)
 
  - Mobile View
  
-![completed mobile view](./)
+![completed mobile view](./Rough%20draft%20and%20completed%20pics/mobile_view.png)
+
+## Sources
+ - GIMP: https://www.gimp.org/
+ - Inkscape: https://inkscape.org/
