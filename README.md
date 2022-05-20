@@ -10,7 +10,7 @@
  The purpose of this project was to focus heavily on the practice of *Bootstrap* by demonstrating the responsive design features it has to offer. The goal was to make the user experience smooth as possible for both the desktop and mobile views with Bootstrap alone.
  
 ## How 
- The languages used here were *HTML*, *CSS*(***Bootstrap***), and *JavaScript*. The layout of the page relies on Bootstrap's grid system which is responsible for the responsive user friendly experience. All images used here were made and edited with ***GIMP*** and ***Inkscape***.
+ The languages used here were *HTML*, *CSS* (***Bootstrap***), and *JavaScript*. The layout of the page relies on Bootstrap's grid system which is responsible for the responsive user friendly experience. All images used here were made and edited with ***GIMP*** and ***Inkscape***.
  
 ## Page Description
  - Desktop View
